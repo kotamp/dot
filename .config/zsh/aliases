@@ -1,0 +1,2 @@
+alias cza="vim $XDG_CONFIG_HOME/zsh/aliases"
+#alias cz

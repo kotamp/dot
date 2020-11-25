@@ -1,3 +1,6 @@
 [submodule "git/.yadm"]
 	path = git/.yadm
 	url = https://github.com/TheLocehiliosan/yadm
+[submodule "git/zsh-syntax-highlighting"]
+	path = git/zsh-syntax-highlighting
+	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
