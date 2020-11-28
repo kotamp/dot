@@ -1,2 +1,23 @@
-alias cza="vim $XDG_CONFIG_HOME/zsh/aliases"
-#alias cz
+alias cza="$EDITOR $ZDOTDIR/aliases"
+alias czr="$EDITOR $ZDOTDIR/.zshrc"
+
+alias ll="ls -l"
+alias lah="ls -lah"
+
+alias gs="git status"
+alias ga="git add"
+alias gc="git commit -m"
+alias gcc="git clone"
+alias gpm="git push -u origin master"
+alias gpM="git push -u origin main"
+alias gun="git config user.name"
+alias gue="git config user.email"
+alias gsa="git submodule add"
+alias gsu="git submodule update --init -recursive"
+
+alias ys="yadm status"
+alias ya="yadm add"
+alias yc="yadm commit -m"
+alias ypm="yadm push -u origin master"
+alias ysa="yadm submodule add"
+alias ysu="yadm submodule update --init -recursive"
