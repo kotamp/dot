@@ -1,5 +1,7 @@
 alias cza="$EDITOR $ZDOTDIR/aliases"
+alias czd="cd $ZDOTDIR"
 alias czr="$EDITOR $ZDOTDIR/.zshrc"
+alias czz="source $ZDOTDIR/.zshrc"
 
 alias ll="ls -l"
 alias lah="ls -lah"
@@ -20,4 +22,4 @@ alias ya="yadm add"
 alias yc="yadm commit -m"
 alias ypm="yadm push -u origin master"
 alias ysa="yadm submodule add"
-alias ysu="yadm submodule update --init -recursive"
+alias ysu="yadm submodule update --init --recursive"

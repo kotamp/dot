@@ -4,3 +4,12 @@
 [submodule "git/zsh-syntax-highlighting"]
 	path = git/zsh-syntax-highlighting
 	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
+[submodule ".config/zsh/plugins/zsh-completion"]
+	path = .config/zsh/plugins/zsh-completion
+	url = https://github.com/zsh-users/zsh-completions
+[submodule ".config/zsh/plugins/zsh-syntax-highlighting"]
+	path = .config/zsh/plugins/zsh-syntax-highlighting
+	url = https://github.com/zsh-users/zsh-syntax-highlighting
+[submodule ".config/zsh/plugins/zsh-bd"]
+	path = .config/zsh/plugins/zsh-bd
+	url = https://github.com/Tarrasch/zsh-bd

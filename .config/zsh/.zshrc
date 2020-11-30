@@ -60,3 +60,25 @@ cursor_mode() {
 }
 
 cursor_mode
+
+zmodload zsh/complist
+bindkey -M menuselect 'h' vi-backward-char
+bindkey -M menuselect 'j' vi-down-line-or-history
+bindkey -M menuselect 'k' vi-up-line-or-history
+bindkey -M menuselect 'l' vi-forward-char
+
+autoload -Uz edit-command-line
+zle -N edit-command-line
+bindkey -M vicmd v edit-command-line
+
+# extract archives
+source "$ZDOTDIR/scripts/extract.zsh"
+
+# more programs
+fpath=("$ZDOTDIR/plugins/zsh-completions/src" $fpath)
+
+# /a/b/c/d/e => bd b => /a/b
+source "$ZDOTDIR/plugins/zsh-bd/bd.zsh"
+
+# highlighting - must be at the end
+source "$ZDOTDIR/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
